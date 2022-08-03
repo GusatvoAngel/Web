@@ -1,0 +1,16 @@
+body {
+  background: #2d2d2d;
+}
+.items-menu {
+  margin-left: 15%;
+}
+.items-menu a {
+  margin-left: 50px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.bgNavColor {
+  background: #6a0c0c;
+  color: #fff;
+}
