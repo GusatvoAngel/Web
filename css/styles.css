@@ -3,7 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
+  
 }
+body{
+  background: #2D2D2D;
+}
+
 
 .contenedor-noticia {
   width: 50%;
