@@ -41,22 +41,17 @@
                     res.innerHTML += `
                     <div class="col-4">
                         <div  class="card bg-dark col-12 align-content-center align-items-center mt-3" style="width: 18rem;" class="categorias">
-                            <div class="card-img-top position-relative">
-                                <div class="text-center">
-                                    <p class="text-white">
-                                        ${item.group.group_name} 
-                                    </p>
-                                </div>
-                                <div class="text-center">
-                                    <img src="${item.home_team.logo}" width="100px" height="100px" alt="...">
-                                    <img src="${item.away_team.logo}"  width="100px" height="100px" alt="...">
-                                    
+                            <div class="card-img-top">
+                                <img src="./assets/image 11.png" class="card-img-top">
+                            </div>
+                            <div class="card-body text-white text-center "  style="padding:-5">
                                 <div>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text text-white text-center">${item.away_team.name} y ${item.home_team.name} se enfrentan en un partido
-                                </p>
-                            </div>
+                                    <img src="${item.home_team.logo}" width="25%" height="25%" alt="...">
+                                    <img src="${item.away_team.logo}"  width="25%" height="25%" alt="...">
+                                <div>
+                                <h5 class="card-title"> ${item.group.group_name}</h5>
+                                <p class="card-text ">${item.away_team.name} y ${item.home_team.name} se enfrentan en un partido</p>
+                              </div>
                         </div>
                     </div>
                       
