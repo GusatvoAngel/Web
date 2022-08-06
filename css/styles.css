@@ -1,8 +1,84 @@
-body {
-  background: #2d2d2d;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  
+}
+body{
+  background: #2D2D2D;
+}
+
+
+.contenedor-noticia {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.contenedor-imagen {
+  background: url('../img/rec.png');
+  width: 100%;
+  height: 392px;
+  background-repeat: no-repeat;
+}
+
+.contenedor-titulo {
+
+  padding-top: 258px;
+}
+
+.contenedor-titulo-text {
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+
+}
+
+.liga {
+  padding-top: 5px;
+  background-color: rgb(123, 31, 31);
+  width: 85px;
+  height: 35px;
+  text-align: center;
+}
+
+.contenedor-titulo-text h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.contenedor-titulo-text p {
+  text-align: center;
+  padding-bottom: 35px;
+  padding-top: 5px;
+}
+
+.mas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.mas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+
+
+.contenedor-info hr{
+ margin-bottom: 20px;
+ margin-top: 5px;
+}
+
+.contenedor-info {
+  line-height: 1.6;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
 }
 .items-menu {
-  margin-left: 15%;
+  margin-left: 30%;
 }
 .items-menu a {
   margin-left: 50px;

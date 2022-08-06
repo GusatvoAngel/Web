@@ -38,18 +38,21 @@
                  datos = datos.slice(0, 50)*/
                 res.innerHTML = "";
                 for (let item of json.data) {
-                    console.log(item.away_team.logo);
-                    console.log(item.away_team.name);
-                    console.log(item.home_team.logo);
-                    console.log(item.home_team.name);
                     res.innerHTML += `
                     <div class="col-3">
                         <div  class="card bg-dark col-12 mt-3" style="width: 18rem;" class="categorias">
-                            <img src="./assets/image 11.svg" class="card-img-top" alt="...">
+                            <div class="card-img-top">
+                                <img src="${item.home_team.logo}"  alt="...">
+                        <div  class="card bg-dark col-12 align-content-center align-items-center mt-3" style="width: 18rem;" class="categorias">
+                            <div class="card-img-top position-relative">
+                                <img src="${item.home_team.logo}"" alt="...">
+                                <img src="${item.away_team.logo}"  alt="...">
+                            </div>
                             <div class="card-body">
-                                <p class="card-text text-white text-center">America y Real Madrid se enfrentan en un partido amistoso en
-                                    San
-                                    Francisco </p>
+                                <p class="card-text text-white text-center">${item.away_team.name} y ${item.home_team.name} se enfrentan en un partido amistoso en
+                                    ${item.away_team.country.continent}
+                                    
+                                </p>
                             </div>
                         </div>
                     </div>
