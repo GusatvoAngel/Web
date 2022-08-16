@@ -16,7 +16,7 @@ body{
 }
 
 .contenedor-imagen {
-  background: url('../img/rec.png');
+  background: url('../assets/NIXKYYNBC5GSNF6N2TL27IQYLA.jpg');
   width: 100%;
   height: 392px;
   background-repeat: no-repeat;
@@ -72,6 +72,7 @@ body{
 }
 
 .contenedor-info {
+  color:#fff ;
   line-height: 1.6;
   margin-left: 20px;
   margin-right: 20px;
